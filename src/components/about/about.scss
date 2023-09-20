@@ -5,3 +5,52 @@
     background-color: black;
     color: white;
 }
+
+#headline{
+    font-family: 'Manrope', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    position: relative;
+    left: 12%;
+}
+
+#headlineDiff{
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 50px;
+}
+
+#aboutBlock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    height: 400px;
+    padding: 20px;
+}
+
+#aboutImgContaine{
+    width: 200px;
+    position: absolute;
+    
+}
+
+#aboutImg{
+    width: 1000px;
+    height: 250px;
+    border: 5px solid #CAAC7F;
+    border-radius: 10px;
+    
+}
+
+#aboutText{
+    margin-left: 20px;
+    text-align: center;
+    font-size: 17px;
+}
+
+#aboutBtn{
+    background-color: #CAAC7F;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
