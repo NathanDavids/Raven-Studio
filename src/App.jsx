@@ -6,7 +6,7 @@ import About from './components/about/about'
 import Solutions from './components/solutions/solutions'
 import Artists from './components/artists/artists'
 import FAQ from './components/faq/faq'
-// import Booking from './components/booking/booking'
+import Booking from './components/booking/booking'
 // import Footer from './components/footer/footer'
 
 function App() {
@@ -18,8 +18,8 @@ function App() {
       <Solutions />
       <Artists />
       <FAQ />
-      {/* <Booking />
-      <Footer /> */}
+      <Booking />
+      {/* <Footer /> */}
     </>
   )
 }

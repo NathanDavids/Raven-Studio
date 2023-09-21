@@ -1,0 +1,103 @@
+#booking{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    width: 100%;
+    height: 1046px;
+    background-color: #050505;
+    color: white;
+    background-image: url("../../assets/booking.jpg");
+    background-size: cover; /* Adjust background properties as needed */
+    background-position: center;
+    position: relative;
+
+    &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: inherit; /* Inherit the background image from the parent */
+        background-size: inherit;
+        background-position: inherit;
+        filter: grayscale(100%); /* Apply greyscale filter (100% means fully greyscale) */
+      }
+}
+
+#bookingHeadline{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-size: 60px;
+    font-weight: 100;
+    font-family: 'Manrope', sans-serif;
+    gap: 10px;
+}
+
+#contact{
+    position: relative;
+    width: 800px;
+    height: max-content;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+}
+
+#inputs1{
+    position: relative;
+    height: 70px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    backdrop-filter: blur(15px);
+    box-sizing: border-box;
+    outline: 1px solid white;
+    padding: 15px;
+}
+
+// Remove Incrementer on number field
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0; /* Optional: Adjust spacing as needed */
+}
+
+#dropdown{
+    height: 70px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    box-sizing: border-box;
+    outline: 1px solid white;
+    border: none;
+    box-shadow: none;
+}
+
+#textArea{
+    width: 100%;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    box-sizing: border-box;
+    outline: 1px solid white;
+    resize: none;
+}
+
+#bookBtnContainer{
+    position: relative;
+    display: grid;
+    justify-content: center;
+}
+
+#bookBtn{
+    background-color: black;
+    width: 100px;
+    height: 60px;
+}
+
+.select1{
+    color: rgba(255, 255, 255, 0.1);
+}
