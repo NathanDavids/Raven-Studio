@@ -53,7 +53,7 @@ function Booking() {
         value={selectedDate}
         onChange={handleDateChange}
       />
-
+      <br /><br />
       <label htmlFor="timeInput">Select a Time:</label>
       <input
         type="time"
@@ -67,7 +67,9 @@ function Booking() {
       <br /><br />
       </div>
       <div id='bookBtnContainer'>
+        <br />
         <button id='bookBtn'> Book </button>
+        <br />
       </div>
       </section>
     </>
