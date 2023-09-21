@@ -1,0 +1,34 @@
+#footerSection{
+    display: grid;
+}
+#footer{
+    max-width: 100%;
+    width: 100%;
+    height: 400px;
+    background-color: #2C3D42;
+    color: white;
+    display: flex;
+    gap: 100px;
+    padding: 50px;
+}
+
+#socialsContainer{
+    max-width: 100%;
+    width: 100%;
+    height: 50px;
+    background-color: #2C3D42;
+    color: white;
+    display: flex;
+}
+
+#copyright{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2C3D42;
+    color: white;
+}
+
+#right{
+    display: flex;
+    gap: 10px;
+}

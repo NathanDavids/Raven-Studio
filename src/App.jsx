@@ -7,7 +7,7 @@ import Solutions from './components/solutions/solutions'
 import Artists from './components/artists/artists'
 import FAQ from './components/faq/faq'
 import Booking from './components/booking/booking'
-// import Footer from './components/footer/footer'
+import Footer from './components/footer/footer'
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
       <Artists />
       <FAQ />
       <Booking />
-      {/* <Footer /> */}
+      <Footer />
     </>
   )
 }
