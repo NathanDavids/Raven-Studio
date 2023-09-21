@@ -1,0 +1,95 @@
+#solutions {
+    max-width: 100%;
+    width: 100%;
+    max-height: max-content;
+    
+    background-color: #050505;
+    color: white;
+  }
+  
+  #solutionsHeading {
+    font-family: 'Manrope', sans-serif;
+    font-size: 50px;
+    position: relative;
+    left: 25%;
+  }
+  
+  #solutionsDiff {
+    font-family: 'Cinzel Decorative', cursive;
+  }
+  
+  .faq {
+    margin-left: 13%;
+    max-width: 1000px;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #fff;
+    cursor: pointer;
+  }
+  
+  .question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .question h4 {
+    font-size: 1.8rem;
+  }
+  
+  .answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease; /* Smooth transition for max-height */
+  }
+  
+  .answer p {
+    padding-top: 1rem;
+    line-height: 1.6;
+    font-size: 1.4rem;
+  }
+  
+  .faq{
+    transition: max-height 0.3s ease;
+  }
+
+  /* Add an active class to control the max-height for active FAQs */
+  .faq.active .answer {
+    max-height: 500px; /* Adjust as needed */
+  }
+
+  #imgContainer1 {
+    display: flex;
+    position: relative;
+    height: 230px;
+    width: 100%; /* Increase the width to allow more space for hr elements */
+    gap: 50px;
+    align-items: center; /* Vertically align items */
+  }
+  
+  #seperator1 {
+    position: absolute;
+    left: 25.8%;
+    top: 50%;
+    rotate: 90deg;
+    width: 13%; /* Adjust the width as needed */
+    background-color: white; /* Use background-color instead of color for hr elements */
+  }
+
+  #seperator2 {
+    position: absolute;
+    left: 60.8%;
+    top: 50%;
+    rotate: 90deg;
+    width: 13%; /* Adjust the width as needed */
+    background-color: white; /* Use background-color instead of color for hr elements */
+  }
+
+  #imgContainer{
+    width: 300px;
+  }
+
+  .img{
+    height: 200px;
+    width: 400px;
+  }
