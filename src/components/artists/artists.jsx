@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import '../artists/artists.scss';
 import AboutImg from '../../assets/about.jpg';
+import HomeImg from "../../assets/home.jpg"
 import { BsArrowRight } from 'react-icons/bs';
 
 const artistsData = [
@@ -12,7 +13,8 @@ const artistsData = [
     ranking: 'Senior',
     description:
       'Jane says "Imagine a beauty and keep it with you". She specializes in realism style and always tries to get the best end product.',
-  },
+      image: AboutImg, // Add image URL for Jane Davies
+    },
   {
     name: 'John Smith',
     title: 'Tattoo Artist',
@@ -21,7 +23,8 @@ const artistsData = [
     ranking: 'Intermediate',
     description:
       'John is passionate about traditional tattooing and has a unique style that combines elements of Japanese tattoo art.',
-  },
+    image: HomeImg, // Add image URL for Jane Davies
+    },
   {
     name: 'Emily Black',
     title: 'Tattoo Artist',
@@ -29,8 +32,9 @@ const artistsData = [
     style: 'Watercolor, Abstract, Geometric',
     ranking: 'Master',
     description:
-      'Emily is known for her avant-garde approach to tattoo art, blending watercolor techniques with abstract and geometric designs for stunning and unique tattoos.'
-  },
+      'Emily is known for her avant-garde approach to tattoo art, blending watercolor techniques with abstract and geometric designs for stunning and unique tattoos.',
+    image: AboutImg, // Add image URL for Jane Davies
+    },
   {
     name: 'Michael Greene',
     title: 'Tattoo Artist',
@@ -38,8 +42,9 @@ const artistsData = [
     style: 'Neo-Traditional, New School, Surrealism',
     ranking: 'Expert',
     description:
-      'Michael is a versatile artist who excels in various styles, from Neo-Traditional to Surrealism. He believes that tattoos should tell a story and bring imagination to life.'
-  },
+      'Michael is a versatile artist who excels in various styles, from Neo-Traditional to Surrealism. He believes that tattoos should tell a story and bring imagination to life.',
+    image: HomeImg, // Add image URL for Jane Davies
+    },
   {
     name: 'Sarah Walker',
     title: 'Tattoo Artist',
@@ -47,8 +52,9 @@ const artistsData = [
     style: 'Black and Gray, Fine Line, Script',
     ranking: 'Senior',
     description:
-      'Sarah specializes in creating elegant and intricate black and gray tattoos. Her attention to detail and skill with fine line work make her a sought-after artist for script and delicate designs.'
-  },
+      'Sarah specializes in creating elegant and intricate black and gray tattoos. Her attention to detail and skill with fine line work make her a sought-after artist for script and delicate designs.',
+    image: AboutImg, // Add image URL for Jane Davies
+    },
   // Add more artists as needed
 ];
 
@@ -117,7 +123,7 @@ function Artists() {
               </div>
             </div>
             <div id='artistImgContainer'>
-              <img src={AboutImg} id='artistImg' alt='' />
+              <img src={artist.image} id='artistImg' alt='' />
             </div>
           </div>
         ))}
