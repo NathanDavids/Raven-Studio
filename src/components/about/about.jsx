@@ -2,6 +2,7 @@ import React from 'react'
 import '../about/about.scss'
 import '../navbar/navbar'
 import AboutImg from '../../assets/about.jpg'
+import {BsArrowRight} from 'react-icons/bs'
 
 function About() {
   return (
@@ -19,7 +20,7 @@ function About() {
             <br /><br />
             <h3>Read More</h3>
             <br />
-            <button id='aboutBtn'> - </button>
+            <button id='aboutBtn'> <BsArrowRight id='arrow'/> </button>
           </div>
         </div>
       </section>
