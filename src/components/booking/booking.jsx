@@ -36,16 +36,17 @@ function Booking() {
         <input type="number" id="inputs1" placeholder="Phone Number"/>
         <br /><br />
         <select id="dropdown" value={selectedValue} onChange={handleDropdownChange}>
-        <option value="option1" className='select1'> Select Procedure </option>
-        <option value="option1">Option 1</option>
-        <option value="option2">Option 2</option>
-        <option value="option3">Option 3</option>
+        <option value="option1" className='select1'> Select Procedure . . . </option>
+        <option value="option2">Permanent Tattoo</option>
+        <option value="option3">Temporary Tattoo</option>
+        <option value="option4">Piercing</option>
       </select>
       <br /><br />
       <select id="dropdown" value={selectedValue} onChange={handleDropdownChange} placeholder='Select Artist'>
-        <option value="option1">Option 1</option>
-        <option value="option2">Option 2</option>
-        <option value="option3">Option 3</option>
+      <option value="option5" className='select1'> Select Artist . . . </option>
+        <option value="option6">Jane Davies</option>
+        <option value="option7">John Smith</option>
+        <option value="option8">Emily Black</option>
       </select>
       <br /><br />
       <div>
