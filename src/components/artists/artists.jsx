@@ -128,13 +128,15 @@ function Artists() {
           </div>
         ))}
         <br />
-        <hr />
+        <hr id='btnLine'/>
+        <br />
         <div id='slideContainer'>
           <button id='slideBtn' onClick={nextArtist}>
             <BsArrowRight id='nextIcon' />
           </button>
         </div>
-        <hr />
+        <br />
+        <hr id='btnLine'/>
       </section>
     </>
   );

@@ -22,7 +22,7 @@ function FAQ() {
   return (
     <>
       <section id='faqSection'>
-      <h3 id='artistsHeadline'> FREQUENTLY ASKED <span id='artistsDiff'> QUESTIONS </span> </h3>
+      <h3 id='faqHeadline'> FREQUENTLY ASKED <span id='faqDiff'> QUESTIONS </span> </h3>
       <div className={activeFAQ === 'faq1' ? 'faq active' : 'faq1'}
           onClick={() => toggleFAQ('faq1')}>
           <div className='faqQuestion'>

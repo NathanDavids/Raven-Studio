@@ -109,7 +109,8 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 #bookBtn{
-    background-color: black;
+    outline: 2px solid #CAAC7F;
+    border-radius: 3px;
     width: 120px;
     height: 60px;
 }
