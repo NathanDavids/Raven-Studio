@@ -24,7 +24,9 @@ function Booking() {
   return (
     <>
       <section id='booking'>
-      <h3 id='bookingHeadline'> <span id='artistsDiff'> BOOK </span>  AN <span id='artistsDiff'> APPOINTMENT </span></h3>
+        <div id='bookingContainer'>
+      <h3 id='bookingHeadline'> <span id='artistsDiff'> BOOK </span>  AN <span id='bookingDiff'>APPOINTMENT </span></h3>
+      <br />
       <div id="contact">
         <input type="text" id="inputs1" placeholder="Name"/>
         <br /><br />
@@ -46,7 +48,6 @@ function Booking() {
       </select>
       <br /><br />
       <div>
-      <label htmlFor="dateInput">Select a Date:</label>
       <input
         type="date"
         id="inputs1"
@@ -54,7 +55,6 @@ function Booking() {
         onChange={handleDateChange}
       />
       <br /><br />
-      <label htmlFor="timeInput">Select a Time:</label>
       <input
         type="time"
         id="inputs1"
@@ -68,8 +68,9 @@ function Booking() {
       </div>
       <div id='bookBtnContainer'>
         <br />
-        <button id='bookBtn'> Book </button>
+        <button id='bookBtn'> Book Now </button>
         <br />
+        </div>
       </div>
       </section>
     </>

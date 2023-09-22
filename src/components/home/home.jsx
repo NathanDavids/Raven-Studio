@@ -6,7 +6,6 @@ function Home() {
   return (
     <>
       <section id='home'>
-        <div id='overlay'></div>
         <div id='homeContainer'>
           <div id='textContainer'>
           <h1 id='homeHeadline'><span id='homeHeadlineColor'> Express </span> Yourself</h1>

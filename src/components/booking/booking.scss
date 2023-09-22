@@ -1,5 +1,4 @@
 #booking{
-    display: grid;
     justify-content: center;
     align-items: center;
     max-width: 100%;
@@ -26,6 +25,15 @@
       }
 }
 
+#bookingContainer{
+    color: white;
+    position: relative;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 100%;
+    height: 100%;
+}
+
 #bookingHeadline{
     display: flex;
     justify-content: center;
@@ -33,12 +41,18 @@
     font-size: 60px;
     font-weight: 100;
     font-family: 'Manrope', sans-serif;
-    gap: 10px;
+    gap: 20px;
+}
+
+#bookingDiff{
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 60px;
 }
 
 #contact{
     position: relative;
     width: 800px;
+    left: 21.5%;
     height: max-content;
     background-color: transparent;
     border-bottom: 1px solid white;
@@ -74,6 +88,7 @@ input[type="number"]::-webkit-outer-spin-button {
     outline: 1px solid white;
     border: none;
     box-shadow: none;
+    padding: 15px;
 }
 
 #textArea{
@@ -84,6 +99,7 @@ input[type="number"]::-webkit-outer-spin-button {
     box-sizing: border-box;
     outline: 1px solid white;
     resize: none;
+    padding: 15px;
 }
 
 #bookBtnContainer{
@@ -94,7 +110,7 @@ input[type="number"]::-webkit-outer-spin-button {
 
 #bookBtn{
     background-color: black;
-    width: 100px;
+    width: 120px;
     height: 60px;
 }
 

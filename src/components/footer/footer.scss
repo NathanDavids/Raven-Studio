@@ -12,6 +12,70 @@
     padding: 50px;
 }
 
+#tagline{
+    width: 300px;
+}
+
+#taglineText{
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 30px;
+    font-weight: 100;
+    color: #CAAC7F;
+}
+
+#quote{
+    font-family: 'Manrope', sans-serif;
+    font-size: 15px;
+}
+
+#aboutUs{
+    width: 150px;
+    display: grid;
+}
+
+#heading{
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+#item{
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+
+#itemContact{
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    height: 50px;
+    gap: 10px;
+}
+
+#aboutItemLine{
+    width: 30%;
+    position: relative;
+    left: 35%;
+    top: -50%;
+}
+
+#contacts{
+    width: 150px;
+    display: grid;
+}
+
+#socialLine1{
+    width: 45%;
+}
+
 #socialsContainer{
     max-width: 100%;
     width: 100%;
@@ -19,6 +83,14 @@
     background-color: #2C3D42;
     color: white;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 20px;
+}
+
+#socialLine2{
+    width: 45%;
 }
 
 #copyright{
@@ -26,9 +98,23 @@
     justify-content: space-between;
     background-color: #2C3D42;
     color: white;
+    padding: 0px 40px 20px 40px;
+    font-family: 'Manrope', sans-serif;
 }
 
 #right{
     display: flex;
-    gap: 10px;
+    gap: 30px;
+    text-decoration: underline;
+}
+
+#iframe{
+    border: 1px solid white;
+    border-radius: 30px;
+    box-shadow: 00px 0px 20px black;
+}
+
+#copyrightLine1{
+    width: 100%;
+    color: white;
 }
