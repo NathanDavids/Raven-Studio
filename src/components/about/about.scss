@@ -1,9 +1,12 @@
 #about{
     max-width: 100%;
     width: 100%;
-    height: 580px;
+    height: 880px;
     background-color: #050505;
     color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
 
 #headline{
@@ -11,12 +14,14 @@
     font-size: 50px;
     font-weight: 100;
     position: relative;
+    top: 20%;
     left: 16%;
 }
 
 #headlineDiff{
     font-family: 'Cinzel Decorative', cursive;
     font-size: 50px;
+    color: #CAAC7F;
 }
 
 #aboutBlock{
@@ -26,6 +31,8 @@
     background-color: #050505;
     height: 400px;
     padding: 60px;
+    position: relative;
+    top: -30%;
 }
 
 #aboutImgContaine{

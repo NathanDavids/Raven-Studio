@@ -3,7 +3,7 @@
     top: 0px;
     z-index: 2;
     background-color: black;
-    box-shadow: 0px 3px 4px white;
+    box-shadow: 0px 2px 5px white;
 }
 
 #navbar{
@@ -20,10 +20,14 @@
 // color: #B67A4B;
 
 #logoContainer{
-    color: #CAAC7F;
-    font-size: 38px;
+    width: 300px;
+}
+
+#logo{
     font-family: 'Cinzel Decorative', cursive;
-    font-weight: 600;
+    font-weight: 100;
+    font-size: 35px;
+    color: #CAAC7F;
     padding-left: 15px;
 }
 
@@ -40,13 +44,12 @@
 
 #consultaion{
     width: 200px;
-    height: 60px;
-    background-color: lightblue;
+    height: 50px;
     background-color: transparent;
-    border: 3px solid #CAAC7F;
+    border: 1px solid #CAAC7F;
     border-radius: 3px;
     box-shadow: 0px 0px 5px black;
     font-family: 'Manrope', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     color: #CAAC7F;
 }

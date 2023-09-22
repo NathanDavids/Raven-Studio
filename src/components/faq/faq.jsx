@@ -22,6 +22,7 @@ function FAQ() {
   return (
     <>
       <section id='faqSection'>
+        <br /><br /><br /><br /><br /><br />
       <h3 id='faqHeadline'> FREQUENTLY ASKED <span id='faqDiff'> QUESTIONS </span> </h3>
       <div className={activeFAQ === 'faq1' ? 'faq active' : 'faq1'}
           onClick={() => toggleFAQ('faq1')}>
@@ -116,7 +117,7 @@ function FAQ() {
             </p>
             <br />
           </div>
-          <br /><br />
+          <br /><br /><br /><br /><br />
         </div>
       </section>
     </>

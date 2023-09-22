@@ -26,7 +26,7 @@ function Booking() {
       <section id='booking'>
         <div id='bookingContainer'>
       <h3 id='bookingHeadline'> <span id='artistsDiff'> BOOK </span>  AN <span id='bookingDiff'>APPOINTMENT </span></h3>
-      <br />
+      <br /><br />
       <div id="contact">
         <input type="text" id="inputs1" placeholder="Name"/>
         <br /><br />
