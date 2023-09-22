@@ -25,6 +25,7 @@ function Booking() {
     <>
       <section id='booking'>
         <div id='bookingContainer'>
+          <br /><br /><br />
       <h3 id='bookingHeadline'> <span id='artistsDiff'> BOOK </span>  AN <span id='bookingDiff'>APPOINTMENT </span></h3>
       <br /><br />
       <div id="contact">
@@ -71,6 +72,7 @@ function Booking() {
         <button id='bookBtn'> Book Now </button>
         <br />
         </div>
+        <br /><br /><br />
       </div>
       </section>
     </>

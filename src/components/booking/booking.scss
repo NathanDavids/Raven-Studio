@@ -71,6 +71,10 @@
     padding: 15px;
 }
 
+#inputs1::-webkit-calendar-picker-indicator {
+    filter: invert(1); /* Invert the color of the icon */
+  }
+
 // Remove Incrementer on number field
 
 input[type="number"]::-webkit-inner-spin-button,
