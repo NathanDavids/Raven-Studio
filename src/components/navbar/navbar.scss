@@ -73,19 +73,49 @@
   }
   
   .menu-container {
-    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 800px;
+    height: 700px;
+    background: black;
+    color: white;
     border-radius: 5px;
     padding: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   }
   
   #menu-items {
+    height: 90%;
+    width: 90%;
     list-style: none;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: 'Manrope', sans-serif;
+  }
+
+  #menu-items li:hover{
+    color: #2C3D42;
   }
   
   #menu-items li {
     margin-bottom: 10px;
-    font-size: 18px;
+    font-size: 30px;
+  }
+
+  .close-button{
+    display: flex;
+    justify-content: center;
+  }
+
+  .close-button:hover{
+    color: #2C3D42;
+  }
+
+  #close{
+    font-size: 30px;
   }
   

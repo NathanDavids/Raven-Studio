@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import '../navbar/navbar.scss';
 import { BiMenu } from 'react-icons/bi';
+import { AiOutlineClose } from 'react-icons/ai'
 
 function Navbar() {
   // a state variable to track menu visibility
@@ -35,9 +36,6 @@ function Navbar() {
       {isMenuOpen && (
         <div className='modal-overlay'>
           <div className='menu-container'>
-            <button className='close-button' onClick={closeMenu}>
-              Close
-            </button>
             <ul id='menu-items'>
               <a href="#home"><li>HOME</li></a>
               <a href="#about"><li>ABOUT</li></a>
@@ -45,6 +43,9 @@ function Navbar() {
               <a href="#artists"><li>ARTISTS </li></a>
               <a href="#faqSection"><li>FAQ</li></a>
               <a href="#booking"><li>BOOKINGS</li></a>
+              <button className='close-button' onClick={closeMenu}>
+              <AiOutlineClose id='close'/>
+            </button>
             </ul>
           </div>
         </div>
