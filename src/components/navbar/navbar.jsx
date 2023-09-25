@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import '../navbar/navbar.scss';
 import { BiMenu } from 'react-icons/bi';
 import { AiOutlineClose } from 'react-icons/ai'
+import NavbarImg from '../../assets/navbar.jpg'
 
 function Navbar() {
   // a state variable to track menu visibility
@@ -36,6 +37,8 @@ function Navbar() {
       {isMenuOpen && (
         <div className='modal-overlay'>
           <div className='menu-container'>
+            <img src={NavbarImg} id='navbarImg'/>
+            <div id='navImgOverlay'></div>
             <ul id='menu-items'>
               <a href="#home"><li>HOME</li></a>
               <a href="#about"><li>ABOUT</li></a>
