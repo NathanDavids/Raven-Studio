@@ -7,10 +7,11 @@
   }
   
   #solutionsHeading {
+    display: flex;
+    justify-content: center;
     font-family: 'Manrope', sans-serif;
     font-size: 50px;
     position: relative;
-    left: 26%;
   }
   
   #solutionsDiff {
@@ -18,8 +19,12 @@
     color: #CAAC7F;
   }
   
+  #faqContainer{
+    display: grid;
+    justify-content: center;
+  }
+
   .faq {
-    margin-left: 14%;
     max-width: 1000px;
     margin-top: 2rem;
     padding-bottom: 1rem;

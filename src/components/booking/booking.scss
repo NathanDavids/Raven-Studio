@@ -51,18 +51,17 @@
 }
 
 #contact{
-    position: relative;
-    width: 800px;
-    left: 21.5%;
+    display: grid;
+    justify-content: center;
+    max-width: 100%;
     height: max-content;
     background-color: transparent;
     border-bottom: 1px solid white;
 }
 
 #inputs1{
-    position: relative;
     height: 50px;
-    width: 100%;
+    width: 600px;
     background-color: rgba(255, 255, 255, 0.1);
     color: white;
     backdrop-filter: blur(15px);

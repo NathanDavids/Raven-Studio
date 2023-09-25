@@ -24,6 +24,7 @@ function FAQ() {
       <section id='faqSection'>
         <br /><br /><br /><br /><br /><br />
       <h3 id='faqHeadline'> FREQUENTLY ASKED <span id='faqDiff'> QUESTIONS </span> </h3>
+      <div id='questionsContainer'>
       <div className={activeFAQ === 'faq1' ? 'faq active' : 'faq1'}
           onClick={() => toggleFAQ('faq1')}>
           <div className='faqQuestion'>
@@ -116,6 +117,7 @@ function FAQ() {
             Certainly, if you have a personal sketch or design idea for a tattoo, you can often collaborate with a tattoo studio to bring your vision to life. The process typically involves reaching out to your chosen studio to discuss their policy on client-provided sketches. Most studios are open to this approach and will schedule a consultation with one of their tattoo artists. During the consultation, you can share your sketch and ideas, and the artist will assess the design's suitability for tattooing, considering factors like size, placement, and feasibility. Through collaboration and input from the artist, your original sketch can be refined and finalized into a tattoo design that aligns with your vision and is well-suited for the medium. It's important to be open to the artist's expertise and suggestions to ensure the best possible result. Once the design is approved, you can schedule your tattoo session with the studio, and the artist will use your sketch as the foundation for creating your unique tattoo.
             </p>
             <br />
+          </div>
           </div>
           <br /><br /><br /><br /><br />
         </div>

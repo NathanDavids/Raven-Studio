@@ -22,6 +22,7 @@ function Solutions() {
       <section id='solutions'>
         <h3 id='solutionsHeading'>OUR <span id='solutionsDiff'>VERSATILE</span> SOLUTIONS</h3>
         <br /><br />
+        <div id='faqContainer'>
         <div className={activeFAQ === 'faq1' ? 'faq active' : 'faq'}
           onClick={() => toggleFAQ('faq1')}>
           <div className='question'>
@@ -242,6 +243,7 @@ function Solutions() {
             </div>
             <hr />
           </div>
+        </div>
         </div>
         <br /><br /><br /><br /><br /><br /><br /><br />
       </section>

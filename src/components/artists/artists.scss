@@ -6,6 +6,7 @@
     background-color: #050505;
     color: white;
     display: grid;
+    align-items: center;
 }
 
 #artistsHeadline{
@@ -17,7 +18,6 @@
     align-items: center;
     gap: 20px;
     position: relative;
-    left: -1.5%;
 }
 
 #artistsDiff{
@@ -129,10 +129,10 @@
 
 #artistsContainer{
     height: 400px;
-    width: 80%;
+    max-width: 95%;
     position: relative;
-    left: 9%;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -210,7 +210,7 @@
 #artistImgContainer{
     display: flex;
     align-items: center;
-    width: 40%;
+    max-width: 40%;
     height: 76%;
     position: relative;
     left: 3.5%;
@@ -225,6 +225,7 @@
 #slideContainer{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 #slideBtn{
