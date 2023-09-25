@@ -1,6 +1,23 @@
 import React, { useState } from 'react';
 import '../solutions/solutions.scss';
-import AboutImg from '../../assets/about.jpg'
+import Per1 from '../../assets/per1.jpg';
+import Per2 from '../../assets/per2.jpg'
+import Per3 from '../../assets/per3.jpg'
+import Temp1 from '../../assets/temp1.jpg'
+import Temp2 from '../../assets/temp2.jpg'
+import Temp3 from '../../assets/temp3.jpg'
+import Sketch1 from '../../assets/sketch1.jpg'
+import Sketch2 from '../../assets/sketch2.jpg'
+import Sketch3 from '../../assets/sketch3.jpg'
+import Cov1 from '../../assets/cov1.jpg'
+import Cov2 from '../../assets/cov2.jpg'
+import Cov3 from '../../assets/cov3.jpg'
+import rem1 from '../../assets/rem1.png'
+import rem2 from '../../assets/rem2.jpg'
+import rem3 from '../../assets/rem3.jpg'
+import pi1 from '../../assets/pi1.jpg'
+import pi2 from '../../assets/pi2.jpg'
+import pi3 from '../../assets/pi3.jpg'
 
 function Solutions() {
   // Use state to keep track of active FAQ item
@@ -45,15 +62,15 @@ function Solutions() {
             <hr />
             <div id='imgContainer1'>
             <div id='imgContainer'>
-            <img src={AboutImg} className='img' /> 
+            <img src={Per1} className='img' /> 
             </div>
             <hr id='seperator1'/>
             <div id='imgContainer'>
-            <img src={AboutImg} className='img' /> 
+            <img src={Per2} className='img' /> 
             </div> 
             <hr id='seperator2'/>
             <div id='imgContainer'>
-            <img src={AboutImg} className='img' /> 
+            <img src={Per3} className='img' /> 
             </div>
             </div>
             <hr />
@@ -82,15 +99,15 @@ function Solutions() {
             <hr />
             <div id='imgContainer1'>
             <div id='imgContainer'>
-            <img src={AboutImg} className='img' /> 
+            <img src={Temp1} className='img' /> 
             </div>
             <hr id='seperator1'/>
             <div id='imgContainer'>
-            <img src={AboutImg} className='img' /> 
+            <img src={Temp2} className='img' /> 
             </div> 
             <hr id='seperator2'/>
             <div id='imgContainer'>
-            <img src={AboutImg} className='img' /> 
+            <img src={Temp3} className='img' /> 
             </div>
             </div>
             <hr />
@@ -119,15 +136,15 @@ function Solutions() {
             <hr />
             <div id='imgContainer1'>
             <div id='imgContainer'>
-            <img src={AboutImg} className='img' /> 
+            <img src={Sketch1} className='img' /> 
             </div>
             <hr id='seperator1'/>
             <div id='imgContainer'>
-            <img src={AboutImg} className='img' /> 
+            <img src={Sketch2} className='img' /> 
             </div> 
             <hr id='seperator2'/>
             <div id='imgContainer'>
-            <img src={AboutImg} className='img' /> 
+            <img src={Sketch3} className='img' /> 
             </div>
             </div>
             <hr />
@@ -156,15 +173,15 @@ function Solutions() {
             <hr />
             <div id='imgContainer1'>
             <div id='imgContainer'>
-            <img src={AboutImg} className='img' /> 
+            <img src={Cov1} className='img' /> 
             </div>
             <hr id='seperator1'/>
             <div id='imgContainer'>
-            <img src={AboutImg} className='img' /> 
+            <img src={Cov2} className='img' /> 
             </div> 
             <hr id='seperator2'/>
             <div id='imgContainer'>
-            <img src={AboutImg} className='img' /> 
+            <img src={Cov3} className='img' /> 
             </div>
             </div>
             <hr />
@@ -193,15 +210,15 @@ function Solutions() {
             <hr />
             <div id='imgContainer1'>
             <div id='imgContainer'>
-            <img src={AboutImg} className='img' /> 
+            <img src={rem1} className='img' /> 
             </div>
             <hr id='seperator1'/>
             <div id='imgContainer'>
-            <img src={AboutImg} className='img' /> 
+            <img src={rem2} className='img' /> 
             </div> 
             <hr id='seperator2'/>
             <div id='imgContainer'>
-            <img src={AboutImg} className='img' /> 
+            <img src={rem3} className='img' /> 
             </div>
             </div>
             <hr />
@@ -230,15 +247,15 @@ function Solutions() {
             <hr />
             <div id='imgContainer1'>
             <div id='imgContainer'>
-            <img src={AboutImg} className='img' /> 
+            <img src={pi1} className='img' /> 
             </div>
             <hr id='seperator1'/>
             <div id='imgContainer'>
-            <img src={AboutImg} className='img' /> 
+            <img src={pi2} className='img' /> 
             </div> 
             <hr id='seperator2'/>
             <div id='imgContainer'>
-            <img src={AboutImg} className='img' /> 
+            <img src={pi3} className='img' /> 
             </div>
             </div>
             <hr />
