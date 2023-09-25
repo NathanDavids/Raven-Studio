@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import '../artists/artists.scss';
 import AboutImg from '../../assets/about.jpg';
 import HomeImg from "../../assets/home.jpg"
@@ -60,6 +60,35 @@ const artistsData = [
 
 function Artists() {
   const [currentArtistIndex, setCurrentArtistIndex] = useState(0);
+  const [yearsOfExp, setYearsOfExp] = useState(0);
+  const [customersServed, setCustomersServed] = useState(0);
+  const [tattoosInked, setTattoosInked] = useState(0);
+  const [customSketchesDrawn, setCustomSketchesDrawn] = useState(0);
+
+  const targetStats = {
+    yearsOfExp: 9,
+    customersServed: 12,
+    tattoosInked: 14,
+    customSketchesDrawn: 1,
+  };
+
+  const incrementStats = () => {
+    if (yearsOfExp < targetStats.yearsOfExp) {
+      setYearsOfExp((prevValue) => Math.min(prevValue + 1, targetStats.yearsOfExp));
+    }
+    if (customersServed < targetStats.customersServed) {
+      setCustomersServed((prevValue) => Math.min(prevValue + 1, targetStats.customersServed));
+    }
+    if (tattoosInked < targetStats.tattoosInked) {
+      setTattoosInked((prevValue) => Math.min(prevValue + 1, targetStats.tattoosInked));
+    }
+    if (customSketchesDrawn < targetStats.customSketchesDrawn) {
+      setCustomSketchesDrawn((prevValue) => Math.min(prevValue + 1, targetStats.customSketchesDrawn));
+    }
+  };
+
+    // Start the interval when the component mounts
+    const interval = setInterval(incrementStats, 1000);
 
   const nextArtist = () => {
     setCurrentArtistIndex((prevIndex) => (prevIndex + 1) % artistsData.length);
@@ -74,25 +103,25 @@ function Artists() {
         <br /><br />
         <hr id='statsline1'/>
         <div id='stats'>
-          <div id='stat1'>
-            <h1 id='exp'>9</h1>
-            <h5 id='expTag'>Years of Experience</h5>
-          </div>
-          <hr id='artistsSeperator1'/>
-          <div id='stat2'>
-          <h1 id='customers'>12K+</h1>
-            <h5 id='customersTag'>Customers Served</h5>
-          </div>
-          <hr id='artistsSeperator2'/>
-          <div id='stat3'>
-          <h1 id='tattoo'>14K+</h1>
-            <h5 id='tattooTag'>Tattoos Inked</h5>
-          </div>
-          <hr id='artistsSeperator3'/>
-          <div id='stat4'>
-          <h1 id='sketch'>1K+</h1>
-            <h5 id='sketchTag'>Custom Sketches Drawn</h5>
-          </div>
+        <div id='stat1'>
+          <h1 id='exp'>{yearsOfExp}</h1>
+          <h5 id='expTag'>Years of Experience</h5>
+        </div>
+        <hr id='artistsSeperator1' />
+        <div id='stat2'>
+          <h1 id='customers'>{customersServed}K</h1>
+          <h5 id='customersTag'>Customers Served</h5>
+        </div>
+        <hr id='artistsSeperator2' />
+        <div id='stat3'>
+          <h1 id='tattoo'>{tattoosInked}K</h1>
+          <h5 id='tattooTag'>Tattoos Inked</h5>
+        </div>
+        <hr id='artistsSeperator3' />
+        <div id='stat4'>
+          <h1 id='sketch'>{customSketchesDrawn}K</h1>
+          <h5 id='sketchTag'>Custom Sketches Drawn</h5>
+        </div>
           <hr id='statsline2'/>
         </div>
         <br />
