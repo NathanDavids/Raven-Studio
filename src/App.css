@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Manrope&family=Poppins:ital,wght@0,400;1,500&display=swap');
 *{
+  max-width: 100%;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+html{
+  max-width: 100%;
 }
